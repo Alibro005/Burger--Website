@@ -1,0 +1,319 @@
+/*----Media Quries---- */
+
+.hamburger {
+    display: none;
+  }
+  
+  @media (min-width:378px) and ( max-width: 767px) {
+    /* Header */
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .show {
+      display: none !important;
+    }
+  
+    header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+    }
+  
+    .logo img {
+      width: 130px; /* Adjust logo size */
+    }
+  
+    #navbar {
+      flex-direction: column;
+      gap: 10px;
+      padding: 0;
+      margin: 10px 0;
+    }
+  
+    #navbar li {
+      list-style: none;
+    }
+  
+    #navbar a {
+      font-size: 16px;
+    }
+  
+    /* Home Section */
+    .Home-content .box p {
+      font-size: 8px;
+      font-weight: 700;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    #Home{
+      height: 50rem;
+    }
+    .Home-content {
+      position: relative;
+      bottom: 0;
+    }
+    .text {
+      padding-top: 0;
+      text-align: center;
+    }
+    .box {
+      height: 60px;
+      width: 230px;
+    }
+  
+    #Home-img img {
+      width: 240px;
+      height: 300px;
+      position: relative;
+       bottom: 500px;
+      margin-left: 60px;
+    }
+    .Home {
+      display: block;
+    }
+    #Home {
+      display: flex;
+      flex-direction: column-reverse;
+      position: relative;
+      top: 100px;
+    }
+    #bgc {
+      height: 95vh;
+    }
+  
+    #heading-1,
+    #heading-2 {
+      font-size: 32px;
+      margin-top: 10px;
+    }
+  
+    /* Special Section */
+    .Special-content div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #Special div {
+      display: block;
+    }
+  
+    #Special-img-1,
+    .Special-img {
+      width: 90%; /* Reduce image size */
+      margin-bottom: 15px;
+    }
+    .Special-img {
+      height: 160px;
+      margin-top: 0;
+      width: 300px;
+    }
+  
+    #Special-img-1 {
+      height: 160px;
+      width: 300px;
+      margin-left: 0;
+      margin-bottom: 0;
+    }
+    #Special {
+      position: relative;
+      right: 2.9rem;
+      height: 50rem;
+    }
+    .float-1,
+    .float-2 {
+      text-align: center;
+      font-size: 14px;
+      position: relative;
+      bottom: 155px;
+      left: 0;
+    }
+    .float-1,
+    .float-2,
+    .float-3,
+    .float-4,
+    .float-5,
+    .float-6,
+    .float-7 {
+      font-size: 14px;
+    }
+    .float-6,
+    .float-7 {
+      bottom: 200px;
+    }
+  
+    /* Menu Section */
+    .menu-img {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    #Menu {
+      height: 120rem;
+    }
+  
+    #menu-head-1 {
+      font-size: 18px;
+      text-align: center;
+      position: relative;
+      display: inline;
+      left: 80px;
+    }
+  
+    #menu-head-2 {
+      font-size: 24px;
+      text-align: center;
+    }
+    #menu-head-1 {
+      text-align: center;
+      font-size: 1rem;
+      position: relative;
+    }
+  
+    #burger-1,
+    #burger-2,
+    #burger-3 {
+      margin-left: 0;
+      padding: 15px;
+      max-width: 70vw;
+    }
+    #burger-3 {
+      margin-left: 60px;
+    }
+  
+    .btn {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    /* Event Section */
+    .Event {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      height: 38rem;
+    }
+    #Event{
+      height: 50rem;
+    }
+  
+    .event-text p {
+      font-size: 12px;
+      line-height: 1.5;
+      margin: 10px 0;
+    }
+  
+    #event-img img {
+      width: 99%;
+      height: 90%;
+    }
+    #event {
+      height: 70vh;
+    }
+  
+    /* Reservation Section */
+    #Reservation {
+      height: 30rem;
+    }
+    #form {
+      width: 100%;
+      padding: 10px;
+    }
+    #reserve-img-1 {
+      display: none;
+      visibility: hidden;
+    }
+    #reserve-img-2 {
+      display: none;
+      visibility: hidden;
+    }
+    #form {
+      position: relative;
+      bottom: 0;
+    }
+    #date {
+      width: 240px;
+    }
+    #time {
+      width: 240px;
+    }
+  
+    .form,
+    .form-1,
+    .form-2 {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .form input,
+    .form-2 input {
+      width: 130%;
+      padding: 10px;
+      margin-bottom: 10px;
+      position: relative;
+      right: 30px;
+    }
+  
+    #btn {
+      width: 100%;
+      font-size: 16px;
+      padding: 12px;
+    }
+  
+    /* Footer */
+    .footer{
+      display: none;
+    }
+    #footer {
+      text-align: center;
+      font-size: 8px;
+      display: none;
+    }
+  
+    #footer-text {
+      margin-right: 40px;
+      padding-right: 0;
+      position: relative;
+      right: 35px;
+      display: none;
+    }
+    #logo {
+      position: relative;
+      right: 100px;
+      margin-top: 8px;
+    }
+  
+    .footer-1 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #foot {
+      margin-bottom: 20px;
+    }
+  
+    .icon span {
+      font-size: 20px;
+      gap: 10px;
+    }
+    .icon {
+      position: relative;
+      bottom: 40px;
+      margin: 0;
+    }
+  
+    .icon p {
+      margin-top: 0;
+      font-size: 14px;
+    }
+  
+    .foot-text {
+      font-size: 14px;
+      position: relative;
+      bottom: 135px;
+    }
+  }
+  
